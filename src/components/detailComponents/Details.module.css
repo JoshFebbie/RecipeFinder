@@ -1,0 +1,78 @@
+.banner {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  color: rgb(255, 255, 255);
+  background-size: cover;
+  margin-bottom: 30px;
+  background-image: no-repeat;
+  background-position: center;
+}
+
+.details_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 65px;
+}
+
+.details_container h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.detail_half {
+  width: 30%;
+}
+
+.instruction_container {
+  max-width: 550px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.6);
+  background-color: white;
+  box-sizing: border-box;
+  padding: 12px;
+  border-radius: 5px;
+  margin-top: 30px;
+  font-size: large;
+  /* padding-left: 10px; */
+}
+
+.ingredients_container {
+  /* width: 300px; */
+  max-width: 550px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.6);
+  background-color: white;
+  box-sizing: border-box;
+  padding: 12px;
+  border-radius: 5px;
+  margin-top: 30px;
+  /* padding-right: 10px */
+}
+
+p {
+  font-size: large;
+  font-weight: bold;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+li button {
+  background-color: rgb(229, 102, 39);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  transition: all 0.25s ease-in-out;
+}
+
+

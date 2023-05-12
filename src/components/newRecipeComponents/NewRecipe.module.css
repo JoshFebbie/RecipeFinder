@@ -1,0 +1,125 @@
+form {
+  background-color: rgb(176, 176, 176);
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50vw;
+  height: fit-content;
+  gap: 15px;
+  margin-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  /* border: 5px; */
+  color: rgb(0, 0, 0);
+  /* background-color: rgb(0, 0, 0); */
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input,
+form textarea {
+  border: 1px solid #000000;
+  border-radius: 3px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+form input[type="radio"] {
+  height: 25px;
+  width: 25px;
+  border: 3px;
+}
+
+form label {
+  font-size: 20px;
+}
+
+form input:focus {
+  --color: hsl(var(--primary-color), var(--l));
+  border: 2px solid var(--color);
+}
+
+h4 {
+  color: rgb(0, 0, 0);
+  font-size: x-large;
+  font-weight: bold;
+}
+
+form h5 {
+  color: rgb(0, 0, 0);
+}
+
+textarea {
+  width: 100%;
+}
+
+#ing {
+  color: black;
+}
+
+.radio_container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 25px;
+}
+
+.radio_container span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.input_container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 30px;
+  width: 100%;
+}
+
+.input_container input {
+  width: 100%;
+}
+/* .input_container div {
+    width: 100%;
+  } */
+
+.ingredient_inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 50%;
+}
+
+ul {
+  width: 50%;
+}
+
+li {
+  /* border: 1px solid #000000; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+li button {
+  margin-left: 10px;
+  border: 2px solid black;
+  font-size: 15px;
+  
+} 
+
+
+
+
+
