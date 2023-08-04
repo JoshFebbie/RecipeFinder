@@ -14,7 +14,6 @@ const AdBanner = () => {
           rgba(0, 0, 0, 0.6)),
           url(${salmon})`,
         backgroundSize: "cover",
-        flexWrap: "wrap"
         
       }}
     >

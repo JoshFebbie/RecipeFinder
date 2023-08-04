@@ -5,7 +5,7 @@ import styles from "./Header.module.css";
 const Header = () => {
   return (
     <header>
-      <h2 id="dev">Devmountain Eatery</h2>
+      <h2 id="dev">Febbie's Recipes</h2>
       <nav>
         <NavLink to="">
           <button className={styles.nav_btn}>Home</button>
